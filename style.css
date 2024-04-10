@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('/Imagens/Mat.avif'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.borda {
+    border: 2px solid rgb(125, 125, 125); 
+    border-radius: 15px; 
+    padding: 50px;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+button {
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.795) 0px 0px 0px 3px;
+}
+
+input {
+    border-radius: 7px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: red;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+h2 {
+    margin-left: 12px;
+}
+
+#resultado {
+    margin-top: 35px;
+    margin-left: 20px;
+    color: rgba(57, 55, 208, 0.936);
+    font-size: 30px;
+    margin-block: 15px;
+}
+
+#form > strong {
+    color: red;
+}
+
+img {
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-shadow: rgba(214, 45, 3, 0.737) 0px 0px 0px 3px;
+}
